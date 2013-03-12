@@ -1,0 +1,274 @@
+Wireless System Information Summary
+(Time: 18/11/2554 0:03:39 SE Asia Standard Time)
+
+
+======================================================================= 
+============================== SHOW DRIVERS =========================== 
+=======================================================================
+
+
+Interface name: Wireless Network Connection
+
+    Driver                    : Intel(R) WiFi Link 5100 AGN
+    Vendor                    : Intel Corporation
+    Provider                  : Intel
+    Date                      : 15/9/2552
+    Version                   : 13.0.0.107
+    INF file                  : C:\Windows\INF\oem6.inf
+    Files                     : 4 total
+                                C:\Windows\system32\DRIVERS\NETw5s32.sys
+                                C:\Windows\system32\NETw5c32.dll
+                                C:\Windows\system32\NETw5r32.dll
+                                C:\Windows\system32\drivers\vwifibus.sys
+    Type                      : Native Wi-Fi Driver
+    Radio types supported     : 802.11a 802.11b 802.11g
+    FIPS 140-2 mode supported : Yes
+    Hosted network supported  : Yes
+    Authentication and cipher supported in infrastructure mode:
+                                Open            None
+                                Open            WEP-40bit
+                                Open            WEP-104bit
+                                Open            WEP
+                                Shared          WEP-40bit
+                                Shared          WEP-104bit
+                                Shared          WEP
+                                WPA-Enterprise  TKIP
+                                WPA-Enterprise  CCMP
+                                WPA-Personal    TKIP
+                                WPA-Personal    CCMP
+                                WPA2-Enterprise TKIP
+                                WPA2-Enterprise CCMP
+                                WPA2-Personal   TKIP
+                                WPA2-Personal   CCMP
+                                Open            Vendor defined
+    Authentication and cipher supported in ad-hoc mode:
+                                Open            None
+                                Open            WEP-40bit
+                                Open            WEP-104bit
+                                Open            WEP
+                                Shared          WEP-40bit
+                                Shared          WEP-104bit
+                                Shared          WEP
+                                WPA2-Personal   CCMP
+
+
+======================================================================= 
+============================= SHOW INTERFACES ========================= 
+=======================================================================
+
+
+There is 1 interface on the system: 
+
+    Name                   : Wireless Network Connection
+    Description            : Intel(R) WiFi Link 5100 AGN
+    GUID                   : 8e84c189-a95e-446a-ae84-eabdbdb69f99
+    Physical address       : 00:16:ea:ad:e3:a6
+    State                  : disconnected
+
+    Hosted network status  : Started
+    Hosted network clients : 00:22:fa:07:0f:2a
+
+
+======================================================================= 
+=========================== SHOW HOSTED NETWORK ======================= 
+=======================================================================
+
+
+Hosted network settings 
+----------------------- 
+    Mode                   : Allowed
+    SSID name              : "7movieplus"
+    Max number of clients  : 10
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+
+Hosted network status   
+--------------------- 
+    Status                 : Started
+    BSSID                  : 00:16:ea:ad:e3:a7
+    Radio type             : 802.11a
+    Channel                : 11
+    Number of clients      : 1
+        00:22:fa:07:0f:2a        Authenticated
+
+
+======================================================================= 
+============================= SHOW SETTINGS =========================== 
+=======================================================================
+
+
+Wireless LAN settings 
+--------------------- 
+    Show blocked networks in visible network list: No
+
+    Only use GP profiles on GP-configured networks: No
+
+    Hosted network mode allowed in WLAN service: Yes
+
+    Allow shared user credentials for network authentication: Yes
+
+    Block period: Not Configured.
+
+    Auto configuration logic is enabled on interface "Wireless Network Connection"
+
+
+======================================================================= 
+============================== SHOW FILTERS =========================== 
+=======================================================================
+
+
+Allow list on the system (group policy) 
+--------------------------------------- 
+    <None>
+
+Allow list on the system (user) 
+------------------------------- 
+    <None>
+
+Block list on the system (group policy) 
+--------------------------------------- 
+    <None>
+
+Block list on the system (user) 
+------------------------------- 
+    <None>
+
+
+======================================================================= 
+=========================== SHOW CREATEALLUSER ======================== 
+=======================================================================
+
+
+Everyone is allowed to create all user profiles.
+
+
+======================================================================= 
+============================= SHOW PROFILES =========================== 
+=======================================================================
+
+
+Profiles on interface Wireless Network Connection:
+
+Group policy profiles (read only)
+---------------------------------
+    <None>
+
+User profiles
+-------------
+    <None>
+
+
+======================================================================= 
+========================== SHOW PROFILES NAME=* ======================= 
+=======================================================================
+
+Profile "*" is not found on the system.
+
+======================================================================= 
+======================= SHOW NETWORKS MODE=BSSID ====================== 
+=======================================================================
+
+ 
+Interface name : Wireless Network Connection 
+There are 8 networks currently visible. 
+
+SSID 1 : sasithon3
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None 
+    BSSID 1                 : 68:7f:74:26:ef:07
+         Signal             : 31%  
+         Radio type         : 802.11g
+         Channel            : 11 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 2 : On-Ji-Ra
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : TKIP 
+    BSSID 1                 : 68:7f:74:35:08:7c
+         Signal             : 28%  
+         Radio type         : 802.11g
+         Channel            : 11 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 2                 : 68:7f:74:35:08:97
+         Signal             : 33%  
+         Radio type         : 802.11g
+         Channel            : 1 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 3 : 3BB_Hotspot
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None 
+    BSSID 1                 : 00:04:ed:46:2c:48
+         Signal             : 60%  
+         Radio type         : 802.11g
+         Channel            : 6 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+    BSSID 2                 : 00:04:ed:df:da:b0
+         Signal             : 28%  
+         Radio type         : 802.11n
+         Channel            : 13 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 4 : RT3390_3
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None 
+    BSSID 1                 : 00:04:ed:df:da:b2
+         Signal             : 25%  
+         Radio type         : 802.11n
+         Channel            : 13 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 5 : RT3390_4
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None 
+    BSSID 1                 : 00:04:ed:df:da:b3
+         Signal             : 30%  
+         Radio type         : 802.11n
+         Channel            : 13 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 6 : RT3390_2
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None 
+    BSSID 1                 : 00:04:ed:df:da:b1
+         Signal             : 28%  
+         Radio type         : 802.11n
+         Channel            : 13 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 7 : Sasithorn FL3.
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None 
+    BSSID 1                 : c0:c1:c0:b0:a0:32
+         Signal             : 33%  
+         Radio type         : 802.11g
+         Channel            : 2 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
+SSID 8 : Connectify-me
+    Network type            : Infrastructure
+    Authentication          : WPA2-Personal
+    Encryption              : CCMP 
+    BSSID 1                 : 90:4c:e5:92:5b:59
+         Signal             : 20%  
+         Radio type         : 802.11g
+         Channel            : 11 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+
